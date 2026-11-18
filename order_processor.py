@@ -3,5 +3,5 @@ from abc import ABC, abstractmethod
 
 class OrderProcessor(ABC):
     @abstractmethod
-    def process_order(self, order):
+    def process_order(self, order: str) -> str:
         pass
